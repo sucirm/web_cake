@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+a {
+	color: #333;
+}
+
+nav {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 100px;
+}
+
+.nav-item.dropdown {
+	list-style: none;
+}
+
+/*home*/
+.home-detail h2 {
+	font-size: 72px;
+	font-weight: 800;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+
+.home-img img {
+	width: 100%;
+}
+
+/*services*/
+.services {
+	margin-top: 100px;
+}
+
+.services h2 {
+	font-size: 42px;
+	color: #333;
+}
+
+.services-card {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/*menu*/
+.menu {
+	margin-top: 100px;
+}
+
+.menu h2 {
+	font-size: 42px;
+}
+
+.menu-img img {
+	width: 100%;
+}
+
+/*checkout*/
+
+.card-checkout-details,.card-payment-details {
+	padding: 20px;
+}
+
+.card-payment-details h2 {
+	font-size: 20px;
+}
+
+.card-payment-details p {
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.payment-informations tr td,th {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+/*detail*/
+
+.detail img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.input-quantity::placeholder {
+	font-size: 14px;
+	padding-left: 5px;
+	text-transform: uppercase;
+}
+
+.btn-add {
+	padding: 3px;
+	font-size: 14px;
+}
+
+/*login*/
+.login-box {
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	padding: 30px;
+	width: 480px;
+	border-radius: 10px;
+}
+
+.login-box h1 {
+  color: #333;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.login-box input {
+  width: 100%;
+  height: 34px;
+  padding: 15px;
+  border: 2px solid #777;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s;
+  color: #7c7c7c;
+}
+
+/*responsive*/
+@media screen and (max-width: 768px){
+  .home .row {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 50px 10px;
+  }
+}
